@@ -1,8 +1,9 @@
 const express = require('express');
 const router = require('./routes/tasksRoutes');
 const app = express();
+const dotenv = require('dotenv');
 
-//86112a48539e4ab29ff49cfa0af56aa5
+dotenv.config()
 
 const PORT = 3000;
 
