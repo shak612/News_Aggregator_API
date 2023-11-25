@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Testing",
+    "emailId": "testing@gmail.com",
+    "password": "password",
+    "role": "client",
+    "newsPreferences":{
+      "categories":""
+    }
+  }
+]
