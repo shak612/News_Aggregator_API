@@ -1,12 +1,19 @@
 [
   {
     "id": 1,
-    "name": "Testing",
+    "fullName": "Testing",
+    "userName": "something",
     "emailId": "testing@gmail.com",
     "password": "password",
     "role": "client",
-    "newsPreferences":{
-      "categories":""
-    }
+    "newsPreferences": { "categories": "" }
+  },
+  {
+    "fullName": "Shakir",
+    "userName": "shakir123",
+    "emailId": "shakir@gmail.com",
+    "password": "$2b$08$G7p3aLXkyfuwsZ5nneAFBOoOl0aoms.LxNHKSndxD1Om33ymYrvey",
+    "newsPreferences": { "categories": "sports" },
+    "id": 2
   }
 ]
