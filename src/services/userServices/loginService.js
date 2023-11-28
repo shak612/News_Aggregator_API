@@ -1,7 +1,5 @@
 const Users = require('../../models/usersModel.json');
-const fs = require('node:fs');
 const bcrypt = require('bcrypt');
-const path = require('path');
 const { Validator } = require('../../utils/validator');
 const jwt = require('jsonwebtoken');
 
