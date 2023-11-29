@@ -9,6 +9,7 @@ exports.getPreferenceNewsAPIData = async (query) => {
         response.status = true;
         response.data = data;
         return response;
+        
     } catch (error) {
         console.log(error);
         response.status = false;
