@@ -18,6 +18,7 @@ exports.getPreferencesService = async (userData, message) => {
       const usersData = [...Users];
       const findUserData = usersData.find((user) => user.userName == userData)
       if(Object.keys(findUserData).length > 0){
+
       const getData = await getPreferenceNewsAPIData(findUserData.newsPreferences.categories);
        if(getData.status){
           response.status = true;

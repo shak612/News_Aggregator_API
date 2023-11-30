@@ -11,5 +11,10 @@ router.get('/login', userController.loginController)
 router.get('/preferences', verifyToken, preferencesController.getPreferencesController)
 router.put('/preferences', verifyToken, preferencesController.putPreferencesController)
 router.get('/news', verifyToken, newsController.getNewsController)
+router.get('/news/read', verifyToken, newsController.getNewsReadController)
+router.post('/news/:id/read', verifyToken, newsController.postNewsReadController)
+router.get('/news/favorite', verifyToken, newsController.getNewsFavoriteController)
+router.post('/news/:id/favorite', verifyToken, newsController.postNewsFavoriteController)
+router.get('/news/search/:keyword', verifyToken, newsController.getNewsSearchController)
 
 module.exports = router;
