@@ -23,10 +23,10 @@ Project Description: In this project, I have created a RESTful API using Node.js
 - 
 ## Installation
 npm install
--create .env file where mention these fields:-
-PORT = 3000
-JWT_SECRET_KEY = "whateverYouWant"
-API_KEY= "you will get your key from newsAPI"
+- create .env file where mention these fields:-
+- PORT = 3000,
+- JWT_SECRET_KEY = "whateverYouWant",
+- API_KEY= "you will get your key from newsAPI",
 
 ## To Start Server
 - cd src
